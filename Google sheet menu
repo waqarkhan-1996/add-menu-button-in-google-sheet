@@ -1,0 +1,6 @@
+function onOpen() {
+   SpreadsheetApp.getUi().createMenu("WaqarAi") // this will create menu on top
+    .addItem("Generate Text", "generateText") // This will crete submenu on top Example Generate Text is a name of sub menu and generaText is the function to run on click
+    .addItem("Generate Images", "generateImages")
+    .addToUi();
+}
